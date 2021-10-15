@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css?family-Bad+Script');
+html{
+  scroll-behavior: smooth;
+}
+body {
+  height:100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+.logo{
+  margin-right: 25px;
+  float: right;
+  height: 47px;
+  width: 80px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #555;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.nv {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.6s ease; 
+}
+
+.nv:hover {
+  background-color: #000;
+  color: #dd4814;
+}
+.nv.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*para saan yung z-index */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px; 
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #333;
+  border-radius: 100%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+  z-index: 99;
+}
+
+#myBtn:hover, #myBtn:focus {
+  background-color: #333;
+  color: #fff;
+}
+@media(max-width: 992px){
+  body{ padding: 200px 100px; }
+  #id01{ padding: 100px 100px; }
+  .logo{padding: 200px 100px;}
+  #myBtn{ font-size: 22px; width: 40px;  }
+}
+@media(max-width: 768px){
+  body{ font-size: 16px; }
+  #id01{ font-size: 16px; }
+  .logo{font-size: 16px;}
+  h1{font-size: 26px;}
+  h2{font-size: 22px;}
+  h4{font-size: 19px;}
+  hr{margin: 30px 0;}
+  #myBtn{font-size: 18px; width: 32px;  }
+}
+
+
+.parallaxmain { 
+    /* The image used */
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url("../img/img/dost.jpg ");
+
+    /* Set a specific height */
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 50px 50px 50px;
+    margin: 0px;
+    color: white;
+} 
+.par1Q { 
+    /* The image used */
+    background-image: url("../img/img/plx2.png");
+
+    /* Set a specific height */
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 50px 50px 50px;
+    margin: 0px;
+    height: 500px;
+    z-index: 1;
+}
+
+.par2Q { 
+    /* The image used */
+    background-image: url("../img/img/plx3.jpg");
+
+    /* Set a specific height */
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  padding: 200px 50px 50px 50px;
+  margin: 0px;
+  height: 500px;
+  
+}
+.par3Q { 
+    /* The image used */
+    background-image: url("../img/img/plx1.jpg");
+
+    /* Set a specific height */
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  padding: 200px 50px 50px 50px;
+  margin: 0px;
+  height: 500px;
+}
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+} 
+
+#home {
+  font: 400 1em/1.5 "neuton";
+  color: rgba(255,255,255,0.25);
+  text-align: center;
+  margin: 0;
+}
+/*welcome start*/
+#dfn{
+  letter-spacing: .5em;
+}
+#home p{
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  display: inline-block;
+  border-bottom: 4px double rgba(255,255,255,0.25);
+  border-top: 4px double rgba(255,255,255,0.25);
+  border-width: 10px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+  font-family: arial;
+  color: white;
+}
+#home span{
+  font-size: 100px;
+  letter-spacing: 0;
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: normal;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255,255,255,0.5);
+  background: url('http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png')repeat-y;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+  -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes aitf{
+  0%{
+    background-position: 0% 50%;
+  }
+  100%{
+    background-position: 100% 50%;
+  }
+}
+/*welcome end*/
+.homehead {
+  font-size: 70px;
+  text-align: center;
+  word-spacing: 10px;
+  text-shadow: 2px 2px #dd4814;
+  z-index: 2;
+  
+}
+
+.homeheaddesc {
+  font-size: 20px;
+    max-width: 1100px;
+    z-index: 2;
+}
+
+.section-header{
+  margin: 10px;
+  padding: 10px;
+  display: inline;
+}
+
+.row {
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.urow {
+  margin: 60px 60px 20px 60px;
+  padding: 10px;
+  display: inline-block;
+  width: 21%;
+}
+
+.icon {
+  font-size: 40px;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid #dd4814;
+  border-radius: 100%;
+}
+
+.icon:link, .icon:visited {
+  background-color: white;
+  color: #dd4814;
+  border: 2px solid #dd4814;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+  
+}
+
+.icon:hover, .icon:active {
+  background-color: #dd4814;
+  color: white;
+  border: 2px solid  #d9d9d9;
+  border-radius: 50%;
+  padding: 10px 10px 10px 10px;
+}
+
+.secheadlink:link, .secheadlink:visited {
+  color: black;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+h4:link, h4:visited {
+  color: black;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+h4:hover, h4:active {
+  color: #dd4814;
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 10px 17px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color:#dd4814;
+  color: white;
+  padding: 10px 17px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: auto;
+}
+
+button:hover {
+  opacity: 0.8;
+  
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+  color: black;
+  opacity:.98;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #191919;
+  margin: 20px; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  text-align: left;
+  
+}
+
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: .4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    width: 67.45%;
+    margin: 0 auto;
+    transition: max-height 0.2s ease-out;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+hr{
+  width: 97%;
+  color: solid black;
+  margin-top: 50px;
+}
+.foot{
+  border-bottom: 2px black;
+}
+
+.field input[type = "text"],.field input[type = "password"]{
+  align-content: center;
+  border:0;
+  background: none;
+  display: block;
+  text-align: center;
+  border: 2px solid gray;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  
+}
+.field h2{
+  color:white;
+  font-weight: 500;
+}
+.field input[type = "text"]:focus,.field input[type = "password"]:focus{
+  width: 280px;
+  border-color:#dd4814;
+}
+
+.field input[type = "submit"]{
+  border:0;
+  background: none;
+  display: inline-block;
+  margin: 5px 10px;
+  text-align: center;
+  border: 2px solid #dd4814;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor:pointer;
+  
+  
+}
+.field input[type = "button"]{
+  border:0;
+  background: none;
+  display: inline-block;
+  margin: 5px 10px;
+  text-align: center;
+  border: 2px solid #dd4814;
+  padding: 14px 36px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor:pointer;
+  
+  
+}
+.field input[type = "submit"]:hover{
+  background: #dd4814;
+}
+.field input[type = "button"]:hover{
+  background: #dd4814;
+}
+.reg{
+  color: white;
+  margin-bottom: 40px;
+}
+.reg a{
+    color: orange;
+    text-decoration: unset;
+    text-align: center;
+
+}
+.reg a:hover{
+    color: #dd4814;
+    text-decoration:underline;
+}
+
+/*back on top */
+.btnEntrance{
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btnEntrance;
+}
+@keyframes btnEntrance{
+  from{
+    opacity: 0;
+    transform: translate3d(0, 100% , 0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.btnExit{
+  animation-duration: 0.25s;
+  animation-fill-mode: both;
+  animation-name: btnExit;
+}
+@keyframes btnExit{
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+}

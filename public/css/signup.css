@@ -1,0 +1,183 @@
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+.container h1{
+  margin: 0 0 30px;
+  padding: 0;
+  color: #dd4814;
+  text-align: center;
+  padding-right: 15%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	background: url(.jpg);
+	background-size: cover;
+	font-size: 15px;
+	color: #384047
+}
+.logo{
+	margin-right: 25px;
+	float: right;
+	height: 47px;
+	width: 80px;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #555;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.6s ease;
+}
+
+#navbar a:hover {
+  background-color: #000;
+  color: #dd4814;
+}
+
+/* start dito yung form */
+#message{
+  font-size: auto;
+}
+.error_form {
+	font-size: auto;
+	display: inline;
+	color: #FF0052;
+	margin: none;
+}
+
+
+.number{
+	background-color: #5fcf80;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 100%;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+.clr{
+	clear: both;
+}
+
+
+
+
+.form{
+	background:#fff; width:100%; margin:0 auto; padding-left:50px; padding-top:20px;
+}
+.form fieldset{border:0px; padding:0px; margin:0px;}
+.form p.contact { font-size: 12px; margin:0px 0px 10px 0;line-height: 14px; font-family:Arial, Helvetica;}
+
+.form input[type="text"] { width: 400px; }
+.form input[type="email"] { width: 400px; }
+.form input[type="password"] { width: 400px; } 
+.form label { color: #000; font-weight:bold;font-size: 12px;font-family:Arial, Helvetica; }
+.form label.month {width: 135px;}
+.form input, textarea { background-color: rgba(255, 255, 255, 0.4); border: 1px solid rgba(122, 192, 0, 0.15); padding: 7px; font-family: Keffeesatz, Arial; color: #4b4b4b; font-size: 14px; -webkit-border-radius: 5px; margin-bottom: 15px; margin-top: -10px; }
+.form input:focus, textarea:focus { border: 1px solid #ff5400; background-color: rgba(255, 255, 255, 1); }
+.form .select-style {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  background-image: url(select-arrow.png), 
+    -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 0px solid #FFF;
+  color: #555;
+  font-size: inherit;
+  width: 24%;
+  margin: 0;
+  cursor: pointer;
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;} 
+
+
+.offlinecolumn{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.form .office {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  background-image: url(select-arrow.png), 
+    -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 0px solid #FFF;
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  width: 30.8%;
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;}
+
+
+  .container input[type="submit"]{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #dd4814;
+  background: darkgray;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #dd4814;
+  margin-top: 50px;
+  transition: 0.25s;
+
+}
+.container input[type="submit"]:hover{
+  background-color: #fff;
+  color: #dd4814;
+}

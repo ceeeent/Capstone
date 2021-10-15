@@ -1,0 +1,190 @@
+/*START KO CARL TO*/
+
+/* admin */
+
+.addtraining {
+  padding: 30px;
+  // border-top: solid 5px #CDBFAC;
+}
+
+.addcolumn{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+
+.details input[type=text]{
+  display: block;
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+
+.limit input[type=text]{
+  display: block;
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.description input[type=text]{
+  display: block;
+  width: 100%;
+  height: 102px;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+
+input[type=text]:focus{
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+
+
+
+
+
+/* UPLOAD BUTTON */
+#custom-button{
+  padding: 10px;
+  margin: 4px 0;
+  color: white;
+  background-color: #009578;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#custom-button:hover{
+  background-color: #00b28f;
+}
+
+#custome-text{
+  margin-left: 10px;
+  font-family: 'Josefin Sans';
+  color: #aaa;
+}
+#save{
+  padding: 10px;
+  width: 90px;
+  color: white;
+  background-color: #009578;
+  border: 1px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 19px 30px;
+
+}
+#save:hover{
+  background-color: #00b28f;
+}
+
+
+
+
+#speak{
+  padding: 10px;
+  width: 105px;
+  margin-top: 15px;
+  color: white;
+  background-color: #009578;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#speak:hover{
+  background-color: #00b28f;
+}
+
+// ADD EXAM
+
+.vidname input[type=text]{
+  display: block;
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+
+}
+
+
+
+.files{
+  padding: 5px;
+  display: block;
+
+}
+.files p{
+    font-size: 10px;
+    display: block;
+    padding: 3px;
+}
+
+
+
+//speaker
+
+
+
+.profession input[type=text]{
+  display: block;
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.speakername input[type=text]{
+  display: block;
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.company input[type=text]{
+  display: block;
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.position input[type=text]{
+  display: block;
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+}
+input[type=text]:focus{
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}

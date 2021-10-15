@@ -1,0 +1,136 @@
+/*statistic*/
+
+.stats {
+    list-style: none;
+    padding: 0;
+    color: #555;
+  }
+  .stats li{
+    margin: 20px 0;
+  }
+  .bar{
+    background: white;
+    display: block;
+    height: 5px;
+    border: 1px solid rgba(0,0,0,0.8);
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #dd4814;
+  }
+  .bar span{
+    height: 5px;
+    float: left;
+    background: #dd4814;
+  }
+  .bulacan{
+    width: 90%;
+    animation: bulacan 2s;
+  }
+  .ncr{
+    width: 65%;
+    animation: ncr 2s;
+  }
+  .bohol{
+    width: 78%;
+    animation: bohol 2s;
+  }
+  .palawan{
+    width: 85%;
+    animation: palawan 2s;
+  }
+  .tarlac{
+    width: 35%;
+    animation: tarlac 2s;
+  }
+  @keyframes bulacan{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 90%;
+    }
+  
+  }
+  @keyframes ncr{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 65%;
+    }
+  
+  }
+  @keyframes bohol{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 78%;
+    }
+  
+  }
+  @keyframes palawan{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 85%;
+    }
+  
+  }
+  @keyframes tarlac{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 35%;
+    }
+  
+  }
+  /*end of statistic*/
+  
+  /* END NG DEFAULT /*/
+  
+  
+  /*content material*/
+  
+  
+  h3{
+    color: black;
+  }
+  .flat-color-2 {
+    color: red; }
+  
+  .flat-color-3 {
+    color: blue; }
+  
+  .flat-color-4 {
+    color: #dd4814; }
+  
+  .card {
+    margin-bottom: 1.875em;
+    border-radius: 5px;
+    padding: 0;
+    border: .5px solid silver;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 20px black rgba(0, 0, 0, 0.08); 
+    }
+    .count{
+      color: #000;
+    }
+  .stat-widget-five {
+    min-height: 60px; }
+    .stat-widget-five .stat-icon {
+      font-size: 50px;
+      line-height: 50px;
+      position: absolute;
+      left: 30px;
+      top: 20px; }
+    .stat-widget-five .stat-content {
+      margin-left: 100px; }
+    .stat-widget-five .stat-text {
+      color: #455a64;
+      font-size: 20px; }
+    .stat-widget-five .stat-heading {
+      color: #555;
+      font-size: 14px; }

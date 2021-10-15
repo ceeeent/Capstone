@@ -1,0 +1,25 @@
+.photo {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin: 15px;
+}
+.name{
+  padding-top: 0;
+  left: 50%;
+}
+.names{
+	display: inline-block;
+
+}
+
+* {box-sizing: border-box}
+
+/* Style the tab */
+.tab {
+	display:inline;
+	float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 20%;
+}
